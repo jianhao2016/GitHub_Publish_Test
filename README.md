@@ -29,11 +29,13 @@ To run METHCOMP on the test file, use the following command:
 
 `./output full test .`
 
-This command will compress the test file into **"compressed_<test file name>"** and then decompress it to **"reconstructed_<test file name>"**. The compressed files and decompressed files are stored in the folder **DerivedData**
+This command will compress the test file into **"compressed_test"** and then decompress it to **"reconstructed_test"**. The compressed files and decompressed files are stored in the folder **DerivedData/**
 
 To run the compression/decompression algorithm on an arbitrary methylation data file, use the following command:  
+
 `./output <mode> <path to file> <output path>`  
-`mode` can be chosen from the following menu: **full** (joint compression and decompression), **compression** and **decompression**. When `<output path>` is omitted, the default output folder is **DerivedData/**.
+
+`mode` can be chosen from the following menu: **full** (joint compression and decompression), **compression** and **decompression**. When `<output path>` is omitted, the default output folder is **DerivedData/**
 
 ## Output Files
-The compressed files and decompressed files are named **"compressed_<file name>"** and **"reconstructed_<file name>"**.
+The compressed files and decompressed files are named **"compressed_\<file name\>"** and **"reconstructed_\<file name\>"**
