@@ -20,7 +20,7 @@ First you need to compile the project and get the executable file `output`. Afte
 `./output full test .`
 
 to run the **full** compression/decompression task of the test file. The usage of `output` is   
-`.\output <mode> <file name> <path to file>`.   
+`./output <mode> <file name> <path to file>`.   
 `mode` can be chosen from **full**, **compression** and **decompression**. When `<path to file>` is neglected, it will search the file in folder **data**.
 
 ## Output Files
