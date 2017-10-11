@@ -15,6 +15,6 @@ The bedMethyl files are revised bed files. A typical bedMethyl file has 9 + 2 co
 Sample files can be download from ENCODE database, for example the [WGBS experiment of forebrain embryo](https://www.encodeproject.org/files/ENCFF369TZO/ "File summary for ENCFF369TZO (bed)"). Here we provide a simple test file in folder **data** of the same format but much smaller for validation.
 
 ## How to Use
-First you need to compile the project and get the executable file 'output'. After that in, Mac/Linux, open the terminal and type
-'./output full test .'
+First you need to compile the project and get the executable file `output`. After that in, Mac/Linux, open the terminal and type
+`./output full test .`
 to run the **full** compression/decompression task of the test file.
