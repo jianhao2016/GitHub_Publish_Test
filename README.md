@@ -16,5 +16,10 @@ Sample files can be download from ENCODE database, for example the [WGBS experim
 
 ## How to Use
 First you need to compile the project and get the executable file `output`. After that in, Mac/Linux, open the terminal and type
+
 `./output full test .`
-to run the **full** compression/decompression task of the test file.
+
+to run the **full** compression/decompression task of the test file. The usage of `output` is `.\output <mode> <file name> <path to file>`. `mode` can be chosen from **full**, **compression** and **decompression**. When `<path to file>` is neglected, it will search the file in folder **data**.
+
+## Output Files
+After the **full** process, the compressed files and decompressed files will be stored in folder **DerivedData** with name **"compressed_<file name>"** and **"reassemble_<file name>"**.
