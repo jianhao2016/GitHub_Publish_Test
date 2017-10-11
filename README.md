@@ -16,7 +16,5 @@ Sample files can be download from ENCODE database, for example the [WGBS experim
 
 ## How to Use
 First you need to compile the project and get the executable file 'output'. After that in, Mac/Linux, open the terminal and type
-'''
-./output full test .
-'''
+'./output full test .'
 to run the **full** compression/decompression task of the test file.
