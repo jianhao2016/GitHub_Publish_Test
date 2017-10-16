@@ -21,6 +21,7 @@ Sample files can be download from the ENCODE database, for example the [WGBS exp
 git clone https://github.com/jianhao2016/METHCOMP
 
 # compile
+cd src
 make
 ```
 ### Run
