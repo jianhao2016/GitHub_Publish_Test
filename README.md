@@ -27,7 +27,7 @@ make
 To run METHCOMP on the test file, use the following command:
 <!-- First you need to compile the project and get the executable file `output`. After that in, Mac/Linux, open the terminal and type -->
 
-`./output full test .`
+`./output full ../data/test .`
 
 This command will compress the test file into **"compressed_test"** and then decompress it to **"reconstructed_test"**. The compressed files and decompressed files are stored in the folder **DerivedData/**
 
